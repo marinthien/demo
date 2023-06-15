@@ -10,8 +10,8 @@ terraform {
 provider "aws" {}
 
 
-resource "aws_s3_bucket" "demo-bucket-01" {
-  bucket = "demo-bucket-01"
+resource "aws_s3_bucket" "ccm-demo-bucket-01-20231606" {
+  bucket = "ccm-demo-bucket-01-20231606"
 
   tags = {
     Name        = "Demo bucket"
