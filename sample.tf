@@ -15,5 +15,6 @@ resource "aws_s3_bucket" "ccm-demo-bucket-01-20231606" {
     Name        = "Demo bucket"
     Environment = "Dev"
     Source      = "TF"
+    Space      = "CCM"
   }
 }
